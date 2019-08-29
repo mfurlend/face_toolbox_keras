@@ -1,5 +1,6 @@
 from keras.models import *
 from keras.layers import *
+from karas import initializers
 import tensorflow as tf
 
 class L2Norm(Layer):
